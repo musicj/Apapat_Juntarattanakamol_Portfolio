@@ -5,6 +5,7 @@ const gallery = document.querySelector('#gallery-images');
 let images = document.querySelectorAll('#gallery-images li');
 let currentIndex = 1;
 const slideDuration = 5000;
+const player = new Plyr('video');
 
 
 const firstImageClone = images[0].cloneNode(true);
