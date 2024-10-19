@@ -169,13 +169,31 @@ nav {
     }
 }
 
+/* Quote */
+#quote {
+    padding: 40px 0;
+
+    #quote-con {
+        font-size: 40px;
+
+        #quote-02 {
+            text-align: right;
+        }
+    }
+}
+
+
+
 
 
   
-// @media (min-width: 412px) {
+@media (min-width: 412px) {
 
-
-// }
+    //Quote
+    #animation-logo2 {
+        display: none;
+    }
+}
 
 
 @media (min-width: 768px) {
@@ -188,6 +206,11 @@ nav {
   
     #header-text {
       display: block; 
+    }
+
+    //Quote
+    #animation-logo2 {
+        display: block;
     }
 }
 
@@ -203,4 +226,9 @@ nav {
         width: 200px;
         display: block; 
       }
+
+    //Quote
+    #animation-logo2 {
+        display: block;
+    }
 }
