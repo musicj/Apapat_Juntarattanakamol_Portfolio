@@ -87,6 +87,101 @@ nav {
     }
 }
 
+
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+/* Banner */
+#banner {
+    overflow: hidden;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    
+    #banner-name {
+      text-align: center;
+  
+      a {
+        font-size: 23px;
+      }
+  
+      p {
+        font-size: 15px;
+      }
+    }
+  
+    #light-box {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 10px;
+      margin-bottom: 50px;
+      border: 1.5px solid v.$body-text-color;
+      border-radius: 50px;
+      position: relative;
+      
+      p {
+        font-size: 12px;
+        color: v.$body-text-color;
+        margin: 0 8px 0 0;
+      }
+    
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: v.$second-accent-color;
+        margin: 8px;
+      }
+    }
+  
+    #banner-gallery-con {
+      width: 100%;
+    }
+  
+    #banner-gallery {
+      overflow: hidden;
+      position: relative;
+    }
+  
+    #gallery-images {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    #gallery-images li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 100%;
+    }
+  
+    img {
+      max-width: 95%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 15px;
+    }
+  }
+<<<<<<< Updated upstream
+  
+
+
+
+
+  
+=======
+>>>>>>> Stashed changes
+
 // @media (min-width: 412px) {
 
 
