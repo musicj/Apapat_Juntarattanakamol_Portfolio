@@ -11,23 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 class="hidden">Music Portfolio!</h1>
-        <div id="logo"><object data="images/logo-main.svg" type="image/svg+xml"></object></div>
-        <nav>
-            <h2></h2>
-            <button></button>
-            <div>
-                <ul>
+    <body>
+        <!-- Header -->
+        <header class="grid-con">
+            <h1 class="hidden">Music Portfolio!</h1>
+            <div id="logo-mb" class="col-start-1">
+                <img src="images/logo-mobile.svg" alt="Logo">
+            </div>
+            <div id="logo-dt" class="col-start-1 m-col-span-4">
+                <img src="images/logo-desktop.svg" alt="Logo">
+            </div>
+            <div id="header-text" class="col-span-full m-col-start-6 m-col-end-9">
+                <span>UX/UI DESIGNER</span>
+                <br>
+                <span>WEB DEVELOPER</span>
+            </div>
+                <div id="menu-button" class="col-start-4 m-col-start-12">
+                    <img id="toggle-image" src="images/burgercon.svg" alt="Menu">
+                </div>
+                <nav>
+                 <ul id="nav-list" class="hidden">
+                    <li id="close-button" class="close-button">✖</li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Project</a></li>
+                    <li><a href="project.html">Project</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+                 </ul>
+                </nav>
+        </header>
 
-    </header>
+        
     <script src="js/main.js"></script>
 </body>
 </html>
