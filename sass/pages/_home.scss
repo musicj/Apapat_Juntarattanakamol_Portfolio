@@ -345,6 +345,46 @@ nav {
     }
 }
 
+/* About */
+#about {
+    padding:20px;
+
+    #about-location {
+        margin-top: 10px;
+        text-align: right;
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    #about-icon {
+        margin-top: 50px;
+        width: 120px;
+        height: 120px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        border: none; 
+        border-radius: 50%;
+        cursor: pointer; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: auto; 
+    }
+
+    #about-icon img {
+        width: 100%;
+        height: auto; 
+        border-radius: 50%;
+    }
+
+    #about-icon:hover {
+        background-color: rgba(238, 54, 109, 0.9);
+    }
+}
+
+
+
+
 
   
 @media (min-width: 412px) {
@@ -352,6 +392,16 @@ nav {
     //Quote
     #animation-logo2 {
         display: none;
+    }
+
+    //About
+    #about {
+        #about-quote-con {
+            p {
+                font-size: 50px;
+                line-height: 60px;
+            }
+        }
     }
 }
 
@@ -402,7 +452,18 @@ nav {
             display: inline-block;
         }
     }
+
+    //About
+    #about {
+        #about-quote-con {
+            p {
+                font-size: 80px;
+                line-height: 80px;
+            }
+        }
+    }
 }
+
 
 @media (min-width: 1200px) {
 
