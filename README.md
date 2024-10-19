@@ -18,6 +18,7 @@ Open index.html in the browser of your choice.
 ## History
 Oct 12th, 2024
 Oct 13th, 2024
+Oct 18th, 2024
 Oct 19th, 2024
 
 ## Credits
