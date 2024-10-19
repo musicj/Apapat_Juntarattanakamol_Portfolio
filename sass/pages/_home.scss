@@ -382,6 +382,17 @@ nav {
     }
 }
 
+/* Video Player */
+.plyr--video {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    --plyr-color-main: rgba(238, 54, 109, 0.9);
+    --plyr-control-icon-size: 15px;
+    --plyr-control-radius: 20px;
+    --plyr-control-spacing: 15px;
+ }
+
 
 
 
