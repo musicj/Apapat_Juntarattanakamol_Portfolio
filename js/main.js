@@ -7,7 +7,6 @@ let currentIndex = 1;
 const slideDuration = 5000;
 const player = new Plyr('video');
 
-
 const firstImageClone = images[0].cloneNode(true);
 const lastImageClone = images[images.length - 1].cloneNode(true);
 
@@ -51,7 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleImage.addEventListener("click", function () {
         scrollPosition = window.scrollY;
         navList.classList.toggle("show");
-        document.body.style.overflow = 'hidden';
+
+        if (navList.classList.contains("show")) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
     });
 
     closeButton.addEventListener("click", function () {
